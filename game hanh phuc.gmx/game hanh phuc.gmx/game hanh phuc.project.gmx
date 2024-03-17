@@ -28,10 +28,23 @@
     <sprite>sprites\s_strike</sprite>
     <sprite>sprites\s_trapdrop</sprite>
     <sprite>sprites\s_saw</sprite>
-    <sprite>sprites\sprite26</sprite>
+    <sprite>sprites\s_ship</sprite>
     <sprite>sprites\s_idlewgun</sprite>
+    <sprite>sprites\s_boost</sprite>
+    <sprite>sprites\s_dame</sprite>
+    <sprite>sprites\s_giap</sprite>
+    <sprite>sprites\s_gift</sprite>
+    <sprite>sprites\s_water</sprite>
+    <sprite>sprites\s_clock</sprite>
+    <sprite>sprites\s_book</sprite>
+    <sprite>sprites\s_title1</sprite>
+    <sprite>sprites\s_rock</sprite>
+    <sprite>sprites\s_rongbien</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\til_beach</background>
+    <background>background\b_beach</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_walk.gml</script>
@@ -43,11 +56,17 @@
   </scripts>
   <objects name="objects">
     <object>objects\o_player</object>
+    <object>objects\o_ship</object>
+    <object>objects\object2</object>
+    <object>objects\o_rock</object>
+    <object>objects\o_rong_bien</object>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
-    <room>rooms\dirt</room>
     <room>rooms\beach</room>
+    <room>rooms\room_start</room>
+    <room>rooms\forest</room>
+    <room>rooms\room_win</room>
+    <room>rooms\room_thua</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
