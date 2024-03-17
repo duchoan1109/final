@@ -40,10 +40,17 @@
     <sprite>sprites\s_title1</sprite>
     <sprite>sprites\s_rock</sprite>
     <sprite>sprites\s_rongbien</sprite>
+    <sprite>sprites\s_b</sprite>
+    <sprite>sprites\s_sharkdie</sprite>
+    <sprite>sprites\s_shark</sprite>
+    <sprite>sprites\s_shark1</sprite>
+    <sprite>sprites\s_gauattack</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\til_beach</background>
     <background>background\b_beach</background>
+    <background>background\til_forest</background>
+    <background>background\b_forest</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -60,10 +67,27 @@
     <object>objects\object2</object>
     <object>objects\o_rock</object>
     <object>objects\o_rong_bien</object>
+    <object>objects\object5</object>
+    <object>objects\o_chest</object>
+    <object>objects\o_shark</object>
+    <object>objects\o_shark1</object>
+    <object>objects\o_coinj</object>
+    <object>objects\o_star</object>
+    <object>objects\o_boost</object>
+    <object>objects\o_gift</object>
+    <object>objects\o_water</object>
+    <object>objects\o_book</object>
+    <object>objects\o_clock</object>
+    <object>objects\O_dame</object>
+    <object>objects\o_giap</object>
+    <object>objects\o_box</object>
+    <object>objects\o_house</object>
+    <object>objects\o_trees</object>
   </objects>
+  <timelines name="timelines"/>
   <rooms name="rooms">
-    <room>rooms\beach</room>
     <room>rooms\room_start</room>
+    <room>rooms\beach</room>
     <room>rooms\forest</room>
     <room>rooms\room_win</room>
     <room>rooms\room_thua</room>
