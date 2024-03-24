@@ -1,6 +1,6 @@
 scr_input();
 
-sprite_index = s_jetpack
+sprite_index = s_jump
 
 if(place_meeting(x, y + moveY, o_solid)) {
     repeat(abs(moveY)) {

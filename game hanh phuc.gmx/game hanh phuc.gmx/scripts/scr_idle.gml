@@ -3,12 +3,12 @@ scr_input();
 sprite_index = s_idlewgun;
 
 if (pressA or pressD) {
-    state = states.walk;
+    state = states.run;
 } else if (pressSpace) {
     state = states.attack;
-} else if (pressW and jumpCount < jumpMax) {
+} else if (pressW and jumpCounter < jumpMax) {
       moveY =-10;
-      jumpCount++;
+      jumpCounter++;
 }
 
 moveX = 0;

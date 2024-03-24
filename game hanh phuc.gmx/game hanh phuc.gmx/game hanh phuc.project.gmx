@@ -7,7 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\s_attack</sprite>
-    <sprite>sprites\s_jetpack</sprite>
+    <sprite>sprites\s_jump</sprite>
     <sprite>sprites\s_snorking</sprite>
     <sprite>sprites\s_die</sprite>
     <sprite>sprites\s_run</sprite>
@@ -45,6 +45,18 @@
     <sprite>sprites\s_shark</sprite>
     <sprite>sprites\s_shark1</sprite>
     <sprite>sprites\s_gauattack</sprite>
+    <sprite>sprites\s_toadattack</sprite>
+    <sprite>sprites\s_toaddied</sprite>
+    <sprite>sprites\s_wolfdie</sprite>
+    <sprite>sprites\s_wolfattack</sprite>
+    <sprite>sprites\s_nguoingheo</sprite>
+    <sprite>sprites\s_nguoingheo1</sprite>
+    <sprite>sprites\s_nguoingheo3</sprite>
+    <sprite>sprites\s_nguoingheo4</sprite>
+    <sprite>sprites\s_skillspike</sprite>
+    <sprite>sprites\s_emojiskillspike</sprite>
+    <sprite>sprites\s_rain</sprite>
+    <sprite>sprites\s_satthuong</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\til_beach</background>
@@ -54,7 +66,7 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_walk.gml</script>
+    <script>scripts\scr_run.gml</script>
     <script>scripts\scr_input.gml</script>
     <script>scripts\scr_jump.gml</script>
     <script>scripts\scr_idle.gml</script>
@@ -83,12 +95,28 @@
     <object>objects\o_box</object>
     <object>objects\o_house</object>
     <object>objects\o_trees</object>
+    <object>objects\o_gauattack</object>
+    <object>objects\o_trap_little2</object>
+    <object>objects\o_traplittle3</object>
+    <object>objects\o_strike</object>
+    <object>objects\o_trapdrop</object>
+    <object>objects\o_saw</object>
+    <object>objects\o_toad_die</object>
+    <object>objects\o_wolf_attack</object>
+    <object>objects\o_wolfdie</object>
+    <object>objects\o_toadattack</object>
+    <object>objects\o_nguoingheo</object>
+    <object>objects\o_nguoingheo1</object>
+    <object>objects\o_nguoingheo3</object>
+    <object>objects\o_nguoingheo4</object>
+    <object>objects\o_satthuong</object>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
+    <room>rooms\test</room>
     <room>rooms\room_start</room>
     <room>rooms\beach</room>
     <room>rooms\forest</room>
+    <room>rooms\room_hanhphuc</room>
     <room>rooms\room_win</room>
     <room>rooms\room_thua</room>
   </rooms>

@@ -28,13 +28,12 @@
             <string>///INIT
 enum states {
     idle,
-    walk,
+    run,
     attack,
-    jetpack,
+    jump,
     dead,
     hit,
     snorking,
-    run,
 }
 state = states.idle;
 
@@ -75,8 +74,8 @@ switch (state) {
         scr_idle();
         break;
         
-    case states.walk:
-        scr_walk();
+    case states.run:
+        scr_run();
         break;
         
     case states.jump:
@@ -95,31 +94,6 @@ switch (state) {
 //MOVEMENT
 var move = pressD - pressA;
     moveX = spd * move;
-
-//GRAVITY
-if (!place_meeting(x, y + 1, o_solid)) {
-    moveY += grav;
-    if (moveY &gt; 9) {
-        moveY = 9;
-    }
-}
-if (place_meeting(x, y + moveY, o_solid)) {
-    while (!place_meeting(x, y + sign(moveY), o_solid)) {
-        y += sign(moveY)
-    }
-    
-    moveY = 0;
-    jumpCount = 0;
-}
-
-if (place_meeting(x + moveX, y-2, o_solid)) {
-    while (!place_meeting(x + sign(moveX), y -2, o_solid)) {
-        x += sign(moveX)
-    }
-}
-
-y +=moveY;
-x +=moveX;
 
 //SPRITE CONTROLLER
 if (move != 0) {
