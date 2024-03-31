@@ -2,15 +2,15 @@ scr_input();
 
 sprite_index = s_run;
 
-moveX = (pressD - pressA) *spd;
+moveX = (pressD - pressA) * spd;
 
 if (pressD + pressA ==0) {
     state = states.idle;
 }
 
-if (pressW and jumpCounter < jumpMax) {
+if (pressW and jumpCount < jumpMax) {
     moveY = -10;
-    jumpCounter++;
+    jumpCount++;
 }
 
 if (pressSpace) {

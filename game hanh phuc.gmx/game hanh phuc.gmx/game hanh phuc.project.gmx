@@ -57,6 +57,8 @@
     <sprite>sprites\s_emojiskillspike</sprite>
     <sprite>sprites\s_rain</sprite>
     <sprite>sprites\s_satthuong</sprite>
+    <sprite>sprites\sprite51</sprite>
+    <sprite>sprites\sprite52</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\til_beach</background>
@@ -82,7 +84,6 @@
     <object>objects\object5</object>
     <object>objects\o_chest</object>
     <object>objects\o_shark</object>
-    <object>objects\o_shark1</object>
     <object>objects\o_coinj</object>
     <object>objects\o_star</object>
     <object>objects\o_boost</object>
@@ -101,9 +102,7 @@
     <object>objects\o_strike</object>
     <object>objects\o_trapdrop</object>
     <object>objects\o_saw</object>
-    <object>objects\o_toad_die</object>
     <object>objects\o_wolf_attack</object>
-    <object>objects\o_wolfdie</object>
     <object>objects\o_toadattack</object>
     <object>objects\o_nguoingheo</object>
     <object>objects\o_nguoingheo1</object>
@@ -111,6 +110,10 @@
     <object>objects\o_nguoingheo4</object>
     <object>objects\o_satthuong</object>
     <object>objects\o_control</object>
+    <object>objects\o_solid</object>
+    <object>objects\o_happy</object>
+    <object>objects\o_attack</object>
+    <object>objects\o_enemy</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\test</room>

@@ -93,7 +93,6 @@
     <instance objName="o_gift" x="352" y="256" name="inst_EAE69831" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_gift" x="992" y="192" name="inst_D7860DA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_shark" x="480" y="256" name="inst_046298AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_shark1" x="1216" y="224" name="inst_4C0E97B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_book" x="192" y="256" name="inst_956E2508" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_book" x="1376" y="192" name="inst_545C26DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_star" x="704" y="192" name="inst_8EFF1616" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -103,8 +102,6 @@
     <instance objName="o_star" x="1280" y="192" name="inst_23E07904" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_star" x="1504" y="192" name="inst_4E0FD837" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_shark" x="320" y="224" name="inst_F40A79E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_shark1" x="640" y="224" name="inst_88675C16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_shark1" x="928" y="256" name="inst_D7327904" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_player" x="64" y="160" name="inst_B86C361F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>

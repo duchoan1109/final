@@ -6,9 +6,11 @@ if (pressA or pressD) {
     state = states.run;
 } else if (pressSpace) {
     state = states.attack;
-} else if (pressW and jumpCounter < jumpMax) {
+} else if (pressW and jumpCount < jumpMax) {
       moveY =-10;
-      jumpCounter++;
+      jumpCount++;
+} else {
+    moveX = 0;
 }
 
-moveX = 0;
+
