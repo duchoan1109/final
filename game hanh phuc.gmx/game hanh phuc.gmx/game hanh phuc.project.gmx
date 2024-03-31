@@ -59,6 +59,8 @@
     <sprite>sprites\s_satthuong</sprite>
     <sprite>sprites\sprite51</sprite>
     <sprite>sprites\sprite52</sprite>
+    <sprite>sprites\s_soliddirt</sprite>
+    <sprite>sprites\s_solidwater</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\til_beach</background>
@@ -90,10 +92,7 @@
     <object>objects\o_gift</object>
     <object>objects\o_water</object>
     <object>objects\o_book</object>
-    <object>objects\o_clock</object>
-    <object>objects\O_dame</object>
     <object>objects\o_giap</object>
-    <object>objects\o_box</object>
     <object>objects\o_house</object>
     <object>objects\o_trees</object>
     <object>objects\o_gauattack</object>
@@ -114,12 +113,13 @@
     <object>objects\o_happy</object>
     <object>objects\o_attack</object>
     <object>objects\o_enemy</object>
+    <object>objects\o_solidwater</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\test</room>
-    <room>rooms\room_start</room>
     <room>rooms\beach</room>
     <room>rooms\forest</room>
+    <room>rooms\test</room>
+    <room>rooms\room_start</room>
     <room>rooms\room_hanhphuc</room>
     <room>rooms\room_win</room>
     <room>rooms\room_thua</room>

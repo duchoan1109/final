@@ -87,7 +87,6 @@
     <instance objName="o_coinj" x="1664" y="224" name="inst_282920A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_coinj" x="256" y="256" name="inst_F786B718" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_boost" x="576" y="256" name="inst_2D50C4C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="O_dame" x="704" y="224" name="inst_C161166E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_giap" x="1056" y="224" name="inst_57B5A96E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_giap" x="1600" y="192" name="inst_FA679474" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_gift" x="352" y="256" name="inst_EAE69831" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -102,7 +101,51 @@
     <instance objName="o_star" x="1280" y="192" name="inst_23E07904" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_star" x="1504" y="192" name="inst_4E0FD837" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_shark" x="320" y="224" name="inst_F40A79E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_player" x="64" y="160" name="inst_B86C361F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_player" x="64" y="128" name="inst_B86C361F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="128" y="288" name="inst_B0153080" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="160" y="288" name="inst_C10F7811" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="192" y="288" name="inst_E72396AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="224" y="288" name="inst_7B0D66B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="288" y="288" name="inst_D25EE617" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="256" y="288" name="inst_2F4A27E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="320" y="288" name="inst_E55DF779" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="352" y="288" name="inst_330CD854" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="384" y="288" name="inst_E64D2E97" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="416" y="288" name="inst_A4BDEB2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="448" y="288" name="inst_14F4BF9F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="480" y="288" name="inst_D9CF41DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="512" y="288" name="inst_6FBBE575" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="544" y="288" name="inst_C28E5D4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="576" y="288" name="inst_F4E29110" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="608" y="288" name="inst_1215D100" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="640" y="288" name="inst_16E84034" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="672" y="288" name="inst_CE5183D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="704" y="288" name="inst_5E4B303C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="736" y="288" name="inst_96A4C3BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="768" y="288" name="inst_BF56183B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="800" y="288" name="inst_485FCC51" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="832" y="288" name="inst_FED9AFF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="864" y="288" name="inst_0F4190F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="896" y="288" name="inst_90DCE987" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="928" y="288" name="inst_7F61F4D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="960" y="288" name="inst_F90FF52C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="992" y="288" name="inst_EF6C6627" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="1024" y="288" name="inst_06895B90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="1056" y="288" name="inst_8CCAFA76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="1248" y="288" name="inst_E8AFFC70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="1280" y="288" name="inst_A819195C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="1312" y="288" name="inst_9F7CB608" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="1344" y="288" name="inst_72322DB9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="1376" y="288" name="inst_AD886814" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="1408" y="288" name="inst_BBA149BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="1440" y="288" name="inst_7C59A743" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="1472" y="288" name="inst_F191E691" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="1504" y="288" name="inst_2DF23FF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="1536" y="288" name="inst_F0E2874E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="1568" y="288" name="inst_722D9B34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="1600" y="288" name="inst_3B66EA06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="1632" y="288" name="inst_55225200" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_solidwater" x="0" y="192" name="inst_D808F6C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="til_beach" x="32" y="224" w="32" h="32" xo="96" yo="64" id="10000034" name="inst_BB1CC6FC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
