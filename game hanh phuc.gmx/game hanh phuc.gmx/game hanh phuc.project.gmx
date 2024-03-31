@@ -110,6 +110,7 @@
     <object>objects\o_nguoingheo3</object>
     <object>objects\o_nguoingheo4</object>
     <object>objects\o_satthuong</object>
+    <object>objects\o_control</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\test</room>
