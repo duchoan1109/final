@@ -5,6 +5,6 @@ sprite_index = s_snorking;
 moveX = (pressD - pressA) *spd;
 
 moveX = (pressD - pressA) *spd;
-if (pressD + pressQ ==0) {
+if (pressD + pressA == 0) {
     state = states.idle;
 }

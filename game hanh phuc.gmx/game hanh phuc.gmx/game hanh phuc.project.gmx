@@ -6,67 +6,67 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\s_attack</sprite>
-    <sprite>sprites\s_jump</sprite>
-    <sprite>sprites\s_snorking</sprite>
-    <sprite>sprites\s_die</sprite>
-    <sprite>sprites\s_run</sprite>
-    <sprite>sprites\s_celebratewin</sprite>
-    <sprite>sprites\s_climb</sprite>
-    <sprite>sprites\s_bullet</sprite>
-    <sprite>sprites\s_smokejet</sprite>
-    <sprite>sprites\s_trees</sprite>
-    <sprite>sprites\s_stone</sprite>
-    <sprite>sprites\s_house</sprite>
-    <sprite>sprites\s_box</sprite>
-    <sprite>sprites\s_coin</sprite>
-    <sprite>sprites\s_star</sprite>
-    <sprite>sprites\s_chest</sprite>
-    <sprite>sprites\s_traplittle2</sprite>
-    <sprite>sprites\s_littletrap3</sprite>
-    <sprite>sprites\s_little_trap_2</sprite>
-    <sprite>sprites\s_strike</sprite>
-    <sprite>sprites\s_trapdrop</sprite>
-    <sprite>sprites\s_saw</sprite>
-    <sprite>sprites\s_ship</sprite>
-    <sprite>sprites\s_idlewgun</sprite>
-    <sprite>sprites\s_boost</sprite>
-    <sprite>sprites\s_dame</sprite>
-    <sprite>sprites\s_giap</sprite>
-    <sprite>sprites\s_gift</sprite>
-    <sprite>sprites\s_water</sprite>
-    <sprite>sprites\s_clock</sprite>
-    <sprite>sprites\s_book</sprite>
-    <sprite>sprites\s_title1</sprite>
-    <sprite>sprites\s_rock</sprite>
-    <sprite>sprites\s_rongbien</sprite>
-    <sprite>sprites\s_b</sprite>
-    <sprite>sprites\s_sharkdie</sprite>
-    <sprite>sprites\s_shark</sprite>
-    <sprite>sprites\s_shark1</sprite>
-    <sprite>sprites\s_gauattack</sprite>
-    <sprite>sprites\s_toadattack</sprite>
-    <sprite>sprites\s_toaddied</sprite>
-    <sprite>sprites\s_wolfdie</sprite>
-    <sprite>sprites\s_wolfattack</sprite>
-    <sprite>sprites\s_nguoingheo</sprite>
-    <sprite>sprites\s_nguoingheo1</sprite>
-    <sprite>sprites\s_nguoingheo3</sprite>
-    <sprite>sprites\s_nguoingheo4</sprite>
-    <sprite>sprites\s_skillspike</sprite>
-    <sprite>sprites\s_emojiskillspike</sprite>
-    <sprite>sprites\s_rain</sprite>
-    <sprite>sprites\s_satthuong</sprite>
-    <sprite>sprites\sprite51</sprite>
-    <sprite>sprites\sprite52</sprite>
-    <sprite>sprites\s_soliddirt</sprite>
-    <sprite>sprites\s_solidwater</sprite>
+    <sprites name="characters">
+      <sprites name="main">
+        <sprite>sprites\s_idle</sprite>
+        <sprite>sprites\s_jump</sprite>
+        <sprite>sprites\s_snorking</sprite>
+        <sprite>sprites\s_win</sprite>
+        <sprite>sprites\s_run</sprite>
+        <sprite>sprites\s_die</sprite>
+        <sprite>sprites\s_attack</sprite>
+      </sprites>
+      <sprites name="shark">
+        <sprite>sprites\s_shark</sprite>
+        <sprite>sprites\s_shark_die</sprite>
+      </sprites>
+      <sprites name="toad">
+        <sprite>sprites\s_toad</sprite>
+        <sprite>sprites\s_toad_die</sprite>
+      </sprites>
+      <sprites name="wolf">
+        <sprite>sprites\s_wolf</sprite>
+        <sprite>sprites\s_wolf_die</sprite>
+      </sprites>
+      <sprites name="homeless">
+        <sprite>sprites\s_homeless_1</sprite>
+        <sprite>sprites\s_homeless_3</sprite>
+        <sprite>sprites\s_homeless_2</sprite>
+        <sprite>sprites\s_homeless_4</sprite>
+      </sprites>
+      <sprite>sprites\s_bear</sprite>
+    </sprites>
+    <sprites name="score">
+      <sprite>sprites\s_coin</sprite>
+      <sprite>sprites\s_star</sprite>
+      <sprite>sprites\s_book</sprite>
+      <sprite>sprites\s_gift</sprite>
+      <sprite>sprites\s_water</sprite>
+    </sprites>
+    <sprites name="others">
+      <sprite>sprites\s_heal</sprite>
+      <sprite>sprites\s_title</sprite>
+      <sprite>sprites\s_next</sprite>
+      <sprite>sprites\s_damage</sprite>
+      <sprite>sprites\s_solid</sprite>
+      <sprite>sprites\s_slope_1</sprite>
+      <sprite>sprites\s_slope_2</sprite>
+    </sprites>
+    <sprites name="trap">
+      <sprite>sprites\s_saw</sprite>
+      <sprite>sprites\s_trap</sprite>
+      <sprite>sprites\s_strike</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
-    <background>background\til_beach</background>
-    <background>background\b_beach</background>
-    <background>background\til_forest</background>
-    <background>background\b_forest</background>
+    <backgrounds name="tileset">
+      <background>background\til_forest</background>
+      <background>background\til_beach</background>
+    </backgrounds>
+    <backgrounds name="background">
+      <background>background\bg_beach</background>
+      <background>background\bg_forest</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -78,51 +78,52 @@
     <script>scripts\scr_snorking.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\o_player</object>
-    <object>objects\o_ship</object>
-    <object>objects\object2</object>
-    <object>objects\o_rock</object>
-    <object>objects\o_rong_bien</object>
-    <object>objects\object5</object>
-    <object>objects\o_chest</object>
-    <object>objects\o_shark</object>
-    <object>objects\o_coinj</object>
-    <object>objects\o_star</object>
-    <object>objects\o_boost</object>
-    <object>objects\o_gift</object>
-    <object>objects\o_water</object>
-    <object>objects\o_book</object>
-    <object>objects\o_giap</object>
-    <object>objects\o_house</object>
-    <object>objects\o_trees</object>
-    <object>objects\o_gauattack</object>
-    <object>objects\o_trap_little2</object>
-    <object>objects\o_traplittle3</object>
-    <object>objects\o_strike</object>
-    <object>objects\o_trapdrop</object>
-    <object>objects\o_saw</object>
-    <object>objects\o_wolf_attack</object>
-    <object>objects\o_toadattack</object>
-    <object>objects\o_nguoingheo</object>
-    <object>objects\o_nguoingheo1</object>
-    <object>objects\o_nguoingheo3</object>
-    <object>objects\o_nguoingheo4</object>
-    <object>objects\o_satthuong</object>
-    <object>objects\o_control</object>
-    <object>objects\o_solid</object>
-    <object>objects\o_happy</object>
-    <object>objects\o_attack</object>
-    <object>objects\o_enemy</object>
-    <object>objects\o_solidwater</object>
+    <objects name="characters">
+      <object>objects\o_player</object>
+      <objects name="enemies">
+        <object>objects\o_toad</object>
+        <object>objects\o_bear</object>
+        <object>objects\o_wolf</object>
+        <object>objects\o_shark</object>
+      </objects>
+      <objects name="homeless">
+        <object>objects\o_homeless_1</object>
+        <object>objects\o_homeless_2</object>
+        <object>objects\o_homeless_3</object>
+        <object>objects\o_homeless_4</object>
+      </objects>
+    </objects>
+    <objects name="others">
+      <object>objects\o_enemy</object>
+      <object>objects\o_checkpoint</object>
+      <object>objects\o_draw</object>
+      <object>objects\o_damage</object>
+      <object>objects\o_title</object>
+      <object>objects\o_heal</object>
+      <object>objects\o_solid</object>
+      <object>objects\o_slope_1</object>
+      <object>objects\o_slope_2</object>
+    </objects>
+    <objects name="score">
+      <object>objects\o_water</object>
+      <object>objects\o_gift</object>
+      <object>objects\o_book</object>
+      <object>objects\o_star</object>
+      <object>objects\o_coin</object>
+    </objects>
+    <objects name="trap">
+      <object>objects\o_trap</object>
+      <object>objects\o_saw</object>
+      <object>objects\o_strike</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\beach</room>
-    <room>rooms\forest</room>
     <room>rooms\test</room>
-    <room>rooms\room_start</room>
-    <room>rooms\room_hanhphuc</room>
-    <room>rooms\room_win</room>
-    <room>rooms\room_thua</room>
+    <room>rooms\test_2</room>
+    <room>rooms\test_3</room>
+    <room>rooms\r_forest</room>
+    <room>rooms\r_beach</room>
+    <room>rooms\r_happy</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -4,7 +4,7 @@ sprite_index = s_run;
 
 moveX = (pressD - pressA) * spd;
 
-if (pressD + pressA ==0) {
+if (pressD + pressA == 0) {
     state = states.idle;
 }
 

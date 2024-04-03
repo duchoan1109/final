@@ -1,6 +1,6 @@
 scr_input();
 
-sprite_index = s_idlewgun;
+sprite_index = s_idle;
 
 if (pressA or pressD) {
     state = states.run;
@@ -12,5 +12,4 @@ if (pressA or pressD) {
 } else {
     moveX = 0;
 }
-
 

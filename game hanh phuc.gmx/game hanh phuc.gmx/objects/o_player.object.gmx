@@ -46,6 +46,7 @@ moveY = 0;
 jumpCount = 0;
 jumpMax = 2;
 attackCount = 0;
+
 </string>
           </argument>
         </arguments>
@@ -253,7 +254,7 @@ y += moveY
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="o_toadattack">
+    <event eventtype="4" ename="o_toad">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -276,7 +277,7 @@ y += moveY
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="o_wolf_attack">
+    <event eventtype="4" ename="o_wolf">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -322,29 +323,6 @@ y += moveY
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="o_trapdrop">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>hp -= 10
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="4" ename="o_strike">
       <action>
         <libid>1</libid>
@@ -368,7 +346,7 @@ y += moveY
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="o_gauattack">
+    <event eventtype="4" ename="o_bear">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -391,7 +369,7 @@ y += moveY
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="o_giap">
+    <event eventtype="4" ename="o_heal">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -414,21 +392,7 @@ y += moveY
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="o_boost">
-      <action>
-        <libid>1</libid>
-        <id>203</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_kill_object</functionname>
-        <codestring></codestring>
-        <whoName>other</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
+    <event eventtype="4" ename="o_book">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -445,34 +409,174 @@ y += moveY
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>spd = 6
+            <string>global.book += 1
 </string>
           </argument>
         </arguments>
       </action>
       <action>
         <libid>1</libid>
-        <id>301</id>
+        <id>203</id>
         <kind>0</kind>
-        <userelative>-1</userelative>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_set_alarm</functionname>
+        <functionname>action_kill_object</functionname>
+        <codestring></codestring>
+        <whoName>other</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="4" ename="o_water">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>0</kind>
-            <string>90</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
+            <kind>1</kind>
+            <string>global.water += 1
+</string>
           </argument>
         </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>203</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_kill_object</functionname>
+        <codestring></codestring>
+        <whoName>other</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="4" ename="o_gift">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.gift +=1
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>203</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_kill_object</functionname>
+        <codestring></codestring>
+        <whoName>other</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="4" ename="o_star">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.star +=1
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>203</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_kill_object</functionname>
+        <codestring></codestring>
+        <whoName>other</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="4" ename="o_coin">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.coin +=1
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>203</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_kill_object</functionname>
+        <codestring></codestring>
+        <whoName>other</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
       </action>
     </event>
     <event eventtype="8" enumb="0">
