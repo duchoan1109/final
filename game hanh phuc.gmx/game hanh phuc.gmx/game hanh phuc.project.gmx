@@ -94,7 +94,7 @@
       </objects>
     </objects>
     <objects name="others">
-      <object>objects\o_enemy</object>
+      <object>objects\_m_m_</object>
       <object>objects\o_checkpoint</object>
       <object>objects\o_draw</object>
       <object>objects\o_damage</object>
@@ -118,11 +118,12 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\r_forest</room>
+    <room>rooms\r_beach1</room>
+    <room>rooms\r_beach</room>
     <room>rooms\test</room>
     <room>rooms\test_2</room>
     <room>rooms\test_3</room>
-    <room>rooms\r_forest</room>
-    <room>rooms\r_beach</room>
     <room>rooms\r_happy</room>
   </rooms>
   <help>

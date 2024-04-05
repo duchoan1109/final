@@ -52,7 +52,6 @@
   </views>
   <instances>
     <instance objName="o_player" x="96" y="224" name="inst_21219EBF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_draw" x="64" y="64" name="inst_27641A08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_coin" x="288" y="288" name="inst_44A9E479" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_gift" x="352" y="288" name="inst_3FC97090" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_water" x="416" y="288" name="inst_AC42AD00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
