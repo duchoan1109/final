@@ -51,6 +51,10 @@
       <sprite>sprites\s_solid</sprite>
       <sprite>sprites\s_slope_1</sprite>
       <sprite>sprites\s_slope_2</sprite>
+      <sprite>sprites\s_loser</sprite>
+      <sprite>sprites\s_again</sprite>
+      <sprite>sprites\s_end</sprite>
+      <sprite>sprites\s_victory</sprite>
     </sprites>
     <sprites name="trap">
       <sprite>sprites\s_saw</sprite>
@@ -80,6 +84,7 @@
   <objects name="objects">
     <objects name="characters">
       <object>objects\o_player</object>
+      <object>objects\o_win</object>
       <objects name="enemies">
         <object>objects\o_toad</object>
         <object>objects\o_bear</object>
@@ -106,6 +111,10 @@
       <object>objects\o_slope_1</object>
       <object>objects\o_slope_2</object>
       <object>objects\o_wall</object>
+      <object>objects\o_loser</object>
+      <object>objects\o_victory</object>
+      <object>objects\o_again</object>
+      <object>objects\o_end</object>
     </objects>
     <objects name="score">
       <object>objects\o_water</object>
@@ -122,13 +131,12 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\r_win</room>
+    <room>rooms\r_start</room>
     <room>rooms\r_forest</room>
     <room>rooms\r_beach_1</room>
-    <room>rooms\r_beach_2</room>
-    <room>rooms\test</room>
-    <room>rooms\test_2</room>
-    <room>rooms\test_3</room>
     <room>rooms\r_happy</room>
+    <room>rooms\r_thua</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

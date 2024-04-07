@@ -238,7 +238,7 @@ if (y &gt; 384) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hp -= 10;
+            <string>hp -= 5;
 isDamage = true;
 </string>
           </argument>
@@ -342,7 +342,7 @@ isDamage = true;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hp -= 10;
+            <string>hp -= 5;
 isDamage = true;
 </string>
           </argument>
@@ -446,7 +446,7 @@ isDamage = true;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hp -= 10;
+            <string>hp -= 5;
 isDamage = true;
 </string>
           </argument>
