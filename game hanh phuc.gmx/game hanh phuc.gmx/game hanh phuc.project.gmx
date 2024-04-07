@@ -54,7 +54,7 @@
     </sprites>
     <sprites name="trap">
       <sprite>sprites\s_saw</sprite>
-      <sprite>sprites\s_trap</sprite>
+      <sprite>sprites\s_gin</sprite>
       <sprite>sprites\s_strike</sprite>
     </sprites>
   </sprites>
@@ -85,6 +85,7 @@
         <object>objects\o_bear</object>
         <object>objects\o_wolf</object>
         <object>objects\o_shark</object>
+        <object>objects\o_gr_enemy</object>
       </objects>
       <objects name="homeless">
         <object>objects\o_homeless_1</object>
@@ -94,8 +95,9 @@
       </objects>
     </objects>
     <objects name="others">
-      <object>objects\_m_m_</object>
       <object>objects\o_checkpoint</object>
+      <object>objects\o_checkpoint_2</object>
+      <object>objects\o_checkpoint_3</object>
       <object>objects\o_draw</object>
       <object>objects\o_damage</object>
       <object>objects\o_title</object>
@@ -103,6 +105,7 @@
       <object>objects\o_solid</object>
       <object>objects\o_slope_1</object>
       <object>objects\o_slope_2</object>
+      <object>objects\o_wall</object>
     </objects>
     <objects name="score">
       <object>objects\o_water</object>
@@ -112,15 +115,16 @@
       <object>objects\o_coin</object>
     </objects>
     <objects name="trap">
-      <object>objects\o_trap</object>
+      <object>objects\o_gin</object>
       <object>objects\o_saw</object>
       <object>objects\o_strike</object>
+      <object>objects\o_trap</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_forest</room>
-    <room>rooms\r_beach1</room>
-    <room>rooms\r_beach</room>
+    <room>rooms\r_beach_1</room>
+    <room>rooms\r_beach_2</room>
     <room>rooms\test</room>
     <room>rooms\test_2</room>
     <room>rooms\test_3</room>

@@ -25,12 +25,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>globalvar gift;
+            <string>///INIT
+globalvar gift;
 globalvar coin;
 globalvar star;
 globalvar water;
 globalvar book;
 globalvar timer;
+globalvar hp;
+globalvar hpmax;
 
 global.gift = 0;
 global.coin = 0;
@@ -38,6 +41,38 @@ global.star = 0;
 global.water = 0;
 global.book = 0;
 global.timer = 600;
+global.hp = 100;
+global.hpmax = 100;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (o_player.x &gt; 1760) {
+    if ((global.gift == 2) &amp;&amp; (global.coin == 2) &amp;&amp; (global.star == 2) &amp;&amp; (global.water == 2) &amp;&amp; (global.book == 2)) {
+        room_goto_next();
+    } else {
+        show_message("You have to collect all");
+        x = 25;
+    }
+}
 </string>
           </argument>
         </arguments>
