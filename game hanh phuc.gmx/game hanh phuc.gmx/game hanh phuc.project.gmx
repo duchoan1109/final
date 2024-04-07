@@ -55,6 +55,7 @@
       <sprite>sprites\s_again</sprite>
       <sprite>sprites\s_end</sprite>
       <sprite>sprites\s_victory</sprite>
+      <sprite>sprites\s_play</sprite>
     </sprites>
     <sprites name="trap">
       <sprite>sprites\s_saw</sprite>
@@ -115,6 +116,7 @@
       <object>objects\o_victory</object>
       <object>objects\o_again</object>
       <object>objects\o_end</object>
+      <object>objects\o_play</object>
     </objects>
     <objects name="score">
       <object>objects\o_water</object>
@@ -131,11 +133,11 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\r_win</room>
     <room>rooms\r_start</room>
     <room>rooms\r_forest</room>
     <room>rooms\r_beach_1</room>
     <room>rooms\r_happy</room>
+    <room>rooms\r_win</room>
     <room>rooms\r_thua</room>
   </rooms>
   <help>

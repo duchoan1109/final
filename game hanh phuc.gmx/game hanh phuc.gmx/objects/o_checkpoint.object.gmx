@@ -41,8 +41,8 @@ global.star = 0;
 global.water = 0;
 global.book = 0;
 global.timer = 600;
-global.hp = 100;
-global.hpmax = 100;
+global.hp = 150;
+global.hpmax = 150;
 </string>
           </argument>
         </arguments>
