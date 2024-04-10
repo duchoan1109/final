@@ -4,7 +4,13 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sd_walk</sound>
+    <sound>sound\sd_main</sound>
+    <sound>sound\sd_attack</sound>
+    <sound>sound\sd_win</sound>
+    <sound>sound\sd_lose</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="characters">
       <sprites name="main">
@@ -46,16 +52,21 @@
     <sprites name="others">
       <sprite>sprites\s_heal</sprite>
       <sprite>sprites\s_title</sprite>
+      <sprite>sprites\s_finish</sprite>
       <sprite>sprites\s_next</sprite>
       <sprite>sprites\s_damage</sprite>
       <sprite>sprites\s_solid</sprite>
       <sprite>sprites\s_slope_1</sprite>
       <sprite>sprites\s_slope_2</sprite>
-      <sprite>sprites\s_loser</sprite>
+      <sprite>sprites\s_lose</sprite>
       <sprite>sprites\s_again</sprite>
       <sprite>sprites\s_end</sprite>
       <sprite>sprites\s_victory</sprite>
       <sprite>sprites\s_play</sprite>
+      <sprite>sprites\s_mess_1</sprite>
+      <sprite>sprites\s_mess_2</sprite>
+      <sprite>sprites\s_mess_3</sprite>
+      <sprite>sprites\s_mess_4</sprite>
     </sprites>
     <sprites name="trap">
       <sprite>sprites\s_saw</sprite>
@@ -80,7 +91,6 @@
     <script>scripts\scr_jump.gml</script>
     <script>scripts\scr_idle.gml</script>
     <script>scripts\scr_attack.gml</script>
-    <script>scripts\scr_snorking.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="characters">
@@ -94,6 +104,7 @@
         <object>objects\o_gr_enemy</object>
       </objects>
       <objects name="homeless">
+        <object>objects\o_homeless</object>
         <object>objects\o_homeless_1</object>
         <object>objects\o_homeless_2</object>
         <object>objects\o_homeless_3</object>
@@ -105,6 +116,7 @@
       <object>objects\o_checkpoint_2</object>
       <object>objects\o_checkpoint_3</object>
       <object>objects\o_draw</object>
+      <object>objects\o_finish</object>
       <object>objects\o_damage</object>
       <object>objects\o_title</object>
       <object>objects\o_heal</object>
@@ -112,11 +124,15 @@
       <object>objects\o_slope_1</object>
       <object>objects\o_slope_2</object>
       <object>objects\o_wall</object>
-      <object>objects\o_loser</object>
+      <object>objects\o_lose</object>
       <object>objects\o_victory</object>
       <object>objects\o_again</object>
       <object>objects\o_end</object>
       <object>objects\o_play</object>
+      <object>objects\o_mess_1</object>
+      <object>objects\o_mess_2</object>
+      <object>objects\o_mess_3</object>
+      <object>objects\o_mess_4</object>
     </objects>
     <objects name="score">
       <object>objects\o_water</object>
@@ -135,10 +151,10 @@
   <rooms name="rooms">
     <room>rooms\r_start</room>
     <room>rooms\r_forest</room>
-    <room>rooms\r_beach_1</room>
+    <room>rooms\r_beach</room>
     <room>rooms\r_happy</room>
     <room>rooms\r_win</room>
-    <room>rooms\r_thua</room>
+    <room>rooms\r_lose</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
